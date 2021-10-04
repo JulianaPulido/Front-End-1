@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  font-family:'Open Sans', sans-serif;
+}
+header {
+  width: 100%;
+  height: 10%;
+}
+main{
+  min-height: 500px;
+}
+.foto-perfil {
+  width: 150px;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+h1,
+h2 {
+  color: white;
+  background-color: #587a8d;
+  padding-left: 10px;
+}
+h1 {
+  font-size: 35px;
+  text-align: center;
+  padding: 5px;
+  font-family:'Open Sans', sans-serif;
+}
+span {
+  font-weight: bold;
+}
+h2 {
+  font-size: 20px;
+  padding: 3px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.curriculums {
+  height: 100px;
+  text-align: center;
+}
+.formacion-academica,
+.datos-personales,
+.experiencia-laboral {
+  margin: 18px 30px;
+  padding: 0;
+  font-size: 15px;
+}
+.datos-personales {
+  padding-left: 15px;
+}
+.etiqueta {
+  font-style: italic;
+  font-weight: bold;
+}
+.item {
+  display: flex;
+}
+.item ul {
+  padding-left: 10px;
+}
+.formacion-academica li,
+.experiencia-laboral li {
+  list-style: none;
+}
+p{
+  font-size: large;
+  text-align: justify;
+}
+footer {
+  background-color: #587a8d;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  display: flex;
+}
+footer img,
+footer span {
+  margin: 5px;
+}
+
+a{
+  font-family:'Open Sans', sans-serif;
+  color:#587a8d;
+  font-style: italic;
+}
+.icono {
+  width: 20px;
+  height: 20px;
+  color:white;
+} 

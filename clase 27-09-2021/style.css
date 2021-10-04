@@ -1,0 +1,64 @@
+*{
+margin: 0%;
+}
+header{
+ text-align: center;
+}
+h2{
+ color:#005677; 
+ background-color:#C4C4C4;
+ font-family: 'Times New Roman', Times, serif;
+ font-size:20px; 
+ font-weight: 700;
+ text-align: left;
+ padding-left: 3px;
+} 
+
+h1 {
+ color:#005677; 
+ background-color:#C4C4C4;
+ font-family: 'Times New Roman', Times, serif;
+ font-size:35px; 
+ font-weight: 29,64;
+ text-align: center;
+ padding: 5px;
+}
+
+.curriculum {
+ height: 100px;
+}
+.etiqueta {
+ font-style: italic;
+ font-weight: bold;
+}
+.item {
+ display: flex;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight:400;
+ font-style: normal;
+ font-size: 15px;
+ font-weight: 16,68px;
+}
+
+.formacion-academica li,
+.experiencia-laboral li{
+  list-style: none;
+} 
+footer{
+background-color: #005677; 
+color: white;   
+padding: 3px;
+justify-content: center;
+align-items: center;
+display: flex;
+font-family: 'Times New Roman', Times, serif;
+font-size:20px; 
+font-weight: 700;
+}
+footer img,
+footer span {
+margin: 5px;
+align-items: center
+}
+
+
