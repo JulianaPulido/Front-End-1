@@ -1,0 +1,104 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+main{
+  font-family: Roboto;  
+}
+header{
+    position: sticky;
+    top: 15px;
+    z-index: 18;
+    font-family: Roboto;
+    color: black; 
+    background-color:#00669F;
+}
+h3{
+    color: black; 
+    background-color: #1CD1B0;
+    height:38px;
+    font-size: 16px;
+}
+h2{
+    font-size: 30px;
+}
+h1{
+    font-size: 40px;
+    width: 100%;
+    height: 101px;
+    
+}
+.heroes{
+    width: 100%;
+    margin: 40px auto;
+}
+.caja{
+    margin: 30px;
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 600px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: #F3F3F3;
+    z-index: 5px;
+}
+.caja_header{
+    width: 100%;
+    height: 194px;
+}
+.caja_heart{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+.caja_perfil{
+    border-radius: 50%;
+    position: absolute;
+    top: 128px;
+    left: 80px; 
+}
+.caja_body{
+    position: relative;
+    padding-top: 74px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.descripcion{
+    font-size: 16px;
+    padding: 16px;
+    text-align: left;
+    font-style: normal;
+}
+.caja_boton{
+    background-color: #00669F;
+    color: white;
+    padding: 16px;
+    margin: 37px auto;
+    padding: 16px;
+    width: 128px;
+    display: inline-block;
+}
+footer {
+    position: sticky;
+    bottom: 15px;
+    z-index: 18;
+    color:white;
+    background-color:#00669F;
+    width: 100%;
+    height: 51px;
+    top: 972px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
